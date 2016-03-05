@@ -4,8 +4,8 @@ import engines.Engine;
 
 public abstract class Vehicle {
 
-    protected String name;
-    protected Engine engine;
+    private String name;
+    private Engine engine;
 
     public String getName() {
         return name;
@@ -16,10 +16,17 @@ public abstract class Vehicle {
     }
 
     public void setEngine(Engine engine) {
+
+        // This method allows injection of a new engine.
+        // Since run method uses engine.run() this allows to actually change the algorithm Vehicle subclass will use
+
         this.engine = engine;
+
     }
 
     public void run(){
+
+        // this uses engine.run()
 
         System.out.println(name + " is running: " + engine.run());
 

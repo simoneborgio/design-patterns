@@ -5,6 +5,8 @@ public class CityCar extends Vehicle {
     public CityCar(String name) {
         super();
 
-        this.name = name;
+        this.setName(name);
+
     }
+    
 }

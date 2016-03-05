@@ -15,7 +15,9 @@ public class StrategyPatternApp {
         sportCar.run();
         cityCar.run();
 
-        System.out.println("\nBut strategy pattern allows you to mount a new fast engin on your city car, and:\n");
+        System.out.println("\nBut strategy pattern allows you to mount a new fast engine on your city car, and:\n");
+
+        // here we cange city car's engine
 
         cityCar.setEngine(new FastEngine());
         cityCar.run();

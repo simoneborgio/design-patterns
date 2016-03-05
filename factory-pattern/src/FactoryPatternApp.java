@@ -4,9 +4,13 @@ public class FactoryPatternApp {
 
     public static void main(String[] args) {
 
+        // instantiate the factory
+
         VehicleFactory factory = new VehicleFactory();
 
         System.out.println("A new factory is in town and it's creating vehicles like there's no tomorrow!\n");
+
+        // use the factory to create new objects
 
         Vehicle cityCar = factory.getVehicle("CITY CAR", "City Car");
         Vehicle sportCar = factory.getVehicle("SPORT CAR", "Sport Car");

@@ -1,1 +1,33 @@
 == Design patterns
+
+=== Creational design patterns
+
+- Abstract factory
+- Builder
+- Factory
+- Prototype
+- Singleton
+
+=== Structural design patterns
+
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+
+=== Behavior design patterns
+
+- Chain of responsibility
+- Command
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- Observer
+- Strategy
+- State
+- Template method
+- Visitor

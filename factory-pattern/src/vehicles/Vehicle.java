@@ -1,9 +1,8 @@
 package vehicles;
 
-
 public abstract class Vehicle {
 
-    protected String name;
+    private String name;
 
     public String getName() {
         return name;

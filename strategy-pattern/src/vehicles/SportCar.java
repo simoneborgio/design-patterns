@@ -7,8 +7,8 @@ public class SportCar extends Vehicle {
     public SportCar(String name) {
         super();
 
-        this.name = name;
-        this.engine = new FastEngine();
+        this.setName(name);
+        this.setEngine(new FastEngine());
 
     }
 }
